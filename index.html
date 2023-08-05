@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+  <div class="logo"></div>
+  <div class="container">
+    <div class="container-one">
+      <label class="lblInput" for="bill">Bill</label>
+      <input type="number" class="inputBill" name="bill" id="bill" placeholder="0">
+      <div class="lblInput space" for="bill">Select Tip %</div>
+      <div class="box-btn">
+      </div>
+      <div class="lblInput space" for="people"><p id="nPeople">Number of People</p></div> 
+      <input type="number" class="inputPeople" name="people" id="people" placeholder="0">
+    </div>
+
+    <div class="container-two">
+      <div class="container-result">
+        <p class="resulp">Tip amount <br><span class="myspan">/ person</span></p>
+        <p class="resulT">$<span id="tip">0.00</span></p>
+      </div>
+      <div class="container-result">
+        <p class="resulp">Total <br><span class="myspan">/ person</span></p>
+        <p class="resulT">$<span id="total">0.00</span></p>
+      </div>
+      <div class="resultButton">
+        <input type="button" class="btn btn-large" value="reset" id="reset">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
