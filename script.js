@@ -37,7 +37,6 @@ const operation = (npercent) => {
     const bill = inputs[0].value;
     const custom = inputs[1].value;
     const people = inputs[2].value;
-    console.log({bill, custom, people});
     let total = 0;
     if (bill === '') return;
     if ( people === '') {
